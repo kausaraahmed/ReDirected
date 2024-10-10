@@ -47,7 +47,7 @@ For example, if the keyword is `github`, visiting `yourdomain.com/github` will s
 
 4. **Running Locally**: To test this project on your local machine before deploying, follow these steps:
 
-    1. **Clone the repository**:
+    1. **Clone the repository**: If you already done this, then navigate to the folder. 
 
     2. **Set up a virtual environment**: If you don't already have `venv` installed, you can install it using `pip`:
         ```bash
@@ -71,8 +71,7 @@ For example, if the keyword is `github`, visiting `yourdomain.com/github` will s
         python app.py
         ```
 
-    5. **Access the app**:
-    Once the app is running, open your browser and navigate to:
+    5. **Access the app**: Once the app is running, open your browser and navigate to:
         ```
         http://127.0.0.1:5000/
         ```
@@ -89,12 +88,8 @@ Once deployed, simply use your keywords as URLs. For example:
 - To link GitHub, use `yourdomain.com/github`.
 - To link a Project, use `yourdomain.com/projectName` 
 
-### Contributing
+## Contributing
 
-Feel free to submit pull requests with new features or improvements!
-
-### License
-
- [MIT License](LICENSE)
+If you have any suggestions, feel free to submit pull requests with your ideas.
 
 **PEACE ✌️**
