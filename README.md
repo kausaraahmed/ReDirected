@@ -33,7 +33,7 @@ To simplify this process, I created this project as a central hub where all my l
 
 
 ## How It Works:
-To see how this works, go to `redirected.vercel.app/github`. You will be redirected to my GitHub profile. 
+To see how this works, go to `redirected-seven.vercel.app/github`. You will be redirected to my GitHub profile. 
 
 So, to make it work, 
 1. You have to define a set of keywords and URLs in the `database` dictionary in `app.py`.
