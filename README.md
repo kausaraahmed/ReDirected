@@ -2,6 +2,17 @@
 
 ### A simple URL redirect tool designed to let you manage your links easily.
 
+## Table of Contents:
+
+- [What is this?](#what-is-this)
+- [Why this exist?](#why-this-exist)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [How to Set Up](#how-to-set-up)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+
+
 ## What is this?
 
 This project allows you to set up a minimal URL redirect service. You provide short keywords for your URLs, and the app will automatically redirect users to the original link based on the keyword. Great for organizing your project, social media links, or personal URLs!
@@ -20,9 +31,12 @@ To simplify this process, I created this project as a central hub where all my l
 - Lightweight and efficient
 - Great for self-hosting on platforms like Vercel or Heroku
 
-## How It Works:
 
-1. You define a set of keywords and URLs in the `database` dictionary in `app.py`.
+## How It Works:
+To see how this works, go to `redirected.vercel.app/github`. You will be redirected to my GitHub profile. 
+
+So, to make it work, 
+1. You have to define a set of keywords and URLs in the `database` dictionary in `app.py`.
 2. When someone visits your site using a specific keyword, they will be redirected to the corresponding URL.
 
 For example, if the keyword is `github`, visiting `yourdomain.com/github` will send the user to your GitHub profile.

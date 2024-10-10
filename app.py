@@ -10,7 +10,7 @@ database = {
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return "Welcome to ReDirected! To know more about the project, visit: \"https://github.com/kausaraahmed/ReDirected\""
 
 
 @app.route("/<keyword>")
